@@ -1,0 +1,7 @@
+csvwriter.writerow(["Election Results"])
+    csvwriter.writerow(["-------------------------------------------------------"])
+    csvwriter.writerow([f'Total Votes: {total_votes}')
+    csvwriter.writerow([f'Total: ${total_profit}'])    
+    csvwriter.writerow([f'Average Change: ${round(monthly_change,2)}'])
+    csvwriter.writerow([f'winner')
+    csvwriter.writerow(["----------------------------"])
