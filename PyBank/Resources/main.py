@@ -61,7 +61,7 @@ with open(budget_data) as csvfile:
             greatest_decrease[1] = profits_losses_change
 
     #Average monthly change in Profit/Losses
-    monthly_change = sum(profits_losses/len(profits_losses))
+    monthly_change = sum(profits_losses/)len(profits_losses))
 
 print("Financial Analysis")
 print("----------------------------")
